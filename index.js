@@ -480,11 +480,11 @@ const grupos = [
         }
     }else if (userState.step === 7){
         if (saudacoes.some(texto => mensagem.includes(texto))){
-            await delay(120000);
+            await delay(1800000);
             delete state[from];
             return;
         }else {
-            await delay(120000);
+            await delay(1800000);
             delete state[from];
             return;
         }
